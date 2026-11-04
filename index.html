@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFP N°421 | La Matanza</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- https://remixicon.com -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- https://fonts.google.com -->
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="cabecera" id="inicio">
+        <!-- LOGO -->
+        <a href="#inicio" class="marca" aria-label="CFP 421">
+        <!-- aria-label: información para lectores de pantalla -->
+            <img src="assets/img/logo-cfp.png" alt="Logo del CFP 421">
+            <strong>CFP <span>421</span></strong>
+        </a>
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#sedes">Sedes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <!-- BOTÓN -->
+        <a class="boton boton-nav" href="#inscripcion">Inscribite</a>
+    </header>
+    <!-- CUERPO DE LA PÁGINA -->
+    <main>
+        <!-- SECCIÓN HERO -->
+        <section class="hero" aria-labelledby="titulo-hero">
+            <!-- DIV CON IMAGEN PRINCIPAL -->
+            <div class="hero-foto" aria-label="Ilustración de estudiantes y docentes en cursos del CFP"></div>
+            <!-- DIV CON TEXTO PRINCIPAL -->
+            <div class="hero-texto">
+                <span class="sobre-titulo">RED DE EDUCACIÓN CICM · LA MATANZA</span>
+                <h1 id="titulo-hero">TU FUTURO<br><span>ESTÁ ACÁ</span></h1>
+                <h2>Capacitate. Crecé. Trabajá.</h2>
+                <p>Formación técnica y profesional para jóvenes y adultos. Encontrá tu próximo aprendizaje.</p>
+                <a class="boton boton-primario" href="#cursos">Conocé nuestros cursos</a>
+            </div>
+        </section>
+        <!-- SEGUNDA SECCIÓN / BENEFICIOS -->
+        <section class="beneficios" aria-labelledby="titulo-beneficios">
+            <div class="contenedor">
+                <h2 id="titulo-beneficios">¿Por qué elegir el CFP 421?</h2>
+                <div class="beneficios-grid">
+                    <div>
+                        <span aria-hidden="true">🏅</span>
+                        <h3>Cursos de calidad</h3>
+                    </div>
+                    <div>
+                        <span aria-hidden="true">🛠️</span>
+                        <h3>Formación práctica</h3>
+                    </div>
+                    <div>
+                        <span aria-hidden="true">💼</span>
+                        <h3>Salida laboral</h3>
+                    </div>
+                    <div>
+                        <span aria-hidden="true">🫱🏾‍🫲🏻</span>
+                        <h3>Acompañamiento personalizado</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TERCERA SECCIÓN / CURSOS -->
+        <section class="seccion-cursos" id="cursos" aria-labelledby="titulo-cursos">
+            <div class="contenedor">
+                <div class="encabezado-seccion">
+                    <h2 id="titulo-cursos">Nuestros cursos</h2>
+                    <p>Elegí el área que te interesa y conocé más.</p>
+                </div>
+                <!-- El próximo DIV va a contener los cursos y áreas -->
+                <div class="catalogo">
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-todos" checked>
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-digital">
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-gastronomia">
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-climatizacion">
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-marketing">
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-comunicacion">
+                    <input class="filtro-radio" type="radio" name="categoria" id="f-administracion">
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer></footer>
+
+
+
+</body>
+
+</html>
